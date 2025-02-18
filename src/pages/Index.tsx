@@ -1,38 +1,12 @@
 
-import { useState, useRef } from 'react';
-import { Play, Pause, Volume2, VolumeX, Heart } from 'lucide-react';
+import { useState } from 'react';
+import { Heart } from 'lucide-react';
 
 const Index = () => {
   const [isPlaying, setIsPlaying] = useState(false);
-  const [isMuted, setIsMuted] = useState(false);
-  const audioRef = useRef<HTMLAudioElement>(null);
-
-  const togglePlay = () => {
-    if (audioRef.current) {
-      if (isPlaying) {
-        audioRef.current.pause();
-      } else {
-        audioRef.current.play();
-      }
-      setIsPlaying(!isPlaying);
-    }
-  };
-
-  const toggleMute = () => {
-    if (audioRef.current) {
-      audioRef.current.muted = !isMuted;
-      setIsMuted(!isMuted);
-    }
-  };
 
   return (
     <div className="min-h-screen relative overflow-hidden">
-      <audio
-        ref={audioRef}
-        src="https://example.com/your-romantic-song.mp3"
-        loop
-      />
-      
       {/* Decorative Hearts */}
       <Heart className="heart-decoration text-4xl top-20 left-[10%]" fill="#D946EF" />
       <Heart className="heart-decoration text-3xl top-40 right-[15%]" fill="#D946EF" />
@@ -95,22 +69,18 @@ const Index = () => {
         </div>
       </div>
 
-      {/* Music Player */}
+      {/* YouTube Player */}
       <div className="music-player">
-        <button onClick={togglePlay} className="music-controls">
-          {isPlaying ? (
-            <Pause className="w-6 h-6" />
-          ) : (
-            <Play className="w-6 h-6" />
-          )}
-        </button>
-        <button onClick={toggleMute} className="music-controls">
-          {isMuted ? (
-            <VolumeX className="w-6 h-6" />
-          ) : (
-            <Volume2 className="w-6 h-6" />
-          )}
-        </button>
+        <iframe
+          width="300"
+          height="80"
+          src="https://www.youtube.com/embed/-HAbOWi5rD8?autoplay=0"
+          title="Background Music"
+          frameBorder="0"
+          allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+          allowFullScreen
+          className="rounded-lg"
+        />
       </div>
     </div>
   );
