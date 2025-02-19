@@ -28,21 +28,21 @@ const Index = () => {
       <div className="photo-grid">
         <div className="polaroid-card">
           <img
-            src="src/fotos/WhatsApp Image 2025-02-19 at 14.15.56.jpeg"
+            src="/fotos/WhatsApp Image 2025-02-19 at 14.15.56.jpeg"
             alt="Special moment 1"
           />
           <p className="caption">Oia Como A Gente É Lindu ❤️</p>
         </div>
         <div className="polaroid-card">
           <img
-            src="src/fotos/WhatsApp Image 2025-02-19 at 14.37.17.jpeg"
+            src="/fotos/WhatsApp Image 2025-02-19 at 14.37.17.jpeg"
             alt="Special moment 2"
           />
           <p className="caption">A mulher mais linda que existe 💕</p>
         </div>
         <div className="polaroid-card">
           <img
-            src="src/fotos/WhatsApp Image 2025-02-19 at 14.11.09.jpeg"
+            src="/fotos/WhatsApp Image 2025-02-19 at 14.11.09.jpeg"
             alt="Special moment 3"
           />
           <p className="caption">Viver Juntinho é Bão Dimai 💝</p>
