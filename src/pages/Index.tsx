@@ -28,21 +28,21 @@ const Index = () => {
       <div className="photo-grid">
         <div className="polaroid-card">
           <img
-            src="https://images.unsplash.com/photo-1581091226825-a6a2a5aee158"
+            src="https://drive.google.com/file/d/1tVvh_vwNGtwrlayVmv8ymkD3q3N4njl2/view?usp=sharing"
             alt="Special moment 1"
           />
           <p className="caption">Oia Como A Gente É Lindu ❤️</p>
         </div>
         <div className="polaroid-card">
           <img
-            src="https://images.unsplash.com/photo-1470813740244-df37b8c1edcb"
+            src="https:https://drive.google.com/file/d/1GxnAp6fu9BojtnQ6UtvJpy0rWn_M49Bl/view?usp=sharing"
             alt="Special moment 2"
           />
           <p className="caption">A mulher mais linda que existe 💕</p>
         </div>
         <div className="polaroid-card">
           <img
-            src="https://images.unsplash.com/photo-1465146344425-f00d5f5c8f07"
+            src="https://drive.google.com/file/d/1gJTOVfZx5EzQLUcNlUvYoEZldzcslaUY/view?usp=sharing"
             alt="Special moment 3"
           />
           <p className="caption">Viver Juntinho é Bão Dimai 💝</p>
