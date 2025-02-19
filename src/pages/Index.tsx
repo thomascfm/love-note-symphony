@@ -15,11 +15,12 @@ const Index = () => {
       {/* Hero Section */}
       <div className="container mx-auto px-4 py-20 text-center relative">
         <h1 className="fade-in text-4xl md:text-6xl font-bold mb-6 text-gray-800">
-          For My Beloved ❤️
+          Para Minha Totoquinha ❤️
         </h1>
         <p className="slide-up text-xl md:text-2xl text-gray-700 max-w-2xl mx-auto leading-relaxed">
-          Every moment with you feels like a beautiful dream come true. Your smile lights up my world,
-          and your love makes every day extraordinary. This is my way of showing you how much you mean to me.
+         Cada momento com você parece um lindo sonho que se torna realidade. Seu sorriso ilumina meu mundo 
+        e seu amor torna cada dia extraordinário. Esta é a minha maneira de mostrar o quanto você significa para mim.
+
         </p>
       </div>
 
@@ -30,21 +31,21 @@ const Index = () => {
             src="https://images.unsplash.com/photo-1581091226825-a6a2a5aee158"
             alt="Special moment 1"
           />
-          <p className="caption">Our first date ❤️</p>
+          <p className="caption">Oia Como A Gente É Lindu ❤️</p>
         </div>
         <div className="polaroid-card">
           <img
             src="https://images.unsplash.com/photo-1470813740244-df37b8c1edcb"
             alt="Special moment 2"
           />
-          <p className="caption">That perfect sunset 💕</p>
+          <p className="caption">A mulher mais linda que existe 💕</p>
         </div>
         <div className="polaroid-card">
           <img
             src="https://images.unsplash.com/photo-1465146344425-f00d5f5c8f07"
             alt="Special moment 3"
           />
-          <p className="caption">Forever together 💝</p>
+          <p className="caption">Viver Juntinho é Bão Dimai 💝</p>
         </div>
       </div>
 
@@ -52,19 +53,25 @@ const Index = () => {
       <div className="container mx-auto px-4 py-20">
         <div className="glass-card p-8 max-w-3xl mx-auto">
           <h2 className="text-3xl md:text-4xl font-bold mb-6 text-gray-800 flex items-center gap-2">
-            My Dearest Love <Heart className="text-pink-500" fill="#EC4899" />
+            Meu Amorzão, minha Totoquinha <Heart className="text-pink-500" fill="#EC4899" />
           </h2>
           <p className="text-lg md:text-xl text-gray-700 leading-relaxed">
-            From the moment our paths crossed, I knew my life would never be the same.
-            Your love has given me wings to fly and a home to return to.
-            Every smile, every laugh, every tender moment we share becomes a precious memory
-            I treasure in my heart. You are my inspiration, my comfort, and my greatest adventure.
-            Thank you for being you, and for choosing to share your life with me.
+            Desde o momento em que nossos caminhos se cruzaram, eu sabia que minha vida nunca mais seria a mesma.
+            Que eu tinha encontrado o amor de minha vida, uma menina linda, inteligente, gostosa, maravilhosa, cheia de si,
+            indepentente, uma mulher incrivel com inumeras qualidades. A melhor pessoa que conheci e a melhor conexão.
+            E cada dia mais que eu conhecia seu eu verdadeiro eu me apaixonava mais, e essa paixão foi se fortificando e
+            virando uma bola de neve de amor, um amor forte, verdadeiro, respeitoso, intenso, que eu nunca tinha sentido.
+            Seu amor me deu asas para voar e um lar para onde voltar. Cada sorriso, cada risada, cada momento de felicidade
+            que compartilhamos torna-se uma memória preciosa que guardo em meu coração. Você é minha inspiração, admiração,
+            meu conforto e minha maior aventura. Quero te proporcionar as melhores coisas desse mundo e te dar tudo aquilo
+            que você merece, pois você merece muito mais do que o minimo. Obrigado por ser você e por escolher compartilhar 
+            sua vida comigo. Amo te amar e ser amado por você e quero poder sempre te dar um amor livre, leve e verdadeiro.
+
           </p>
           <p className="text-lg md:text-xl text-gray-700 mt-4 font-semibold">
-            Forever yours, <Heart className="inline text-pink-500" fill="#EC4899" />
+            Para sempre seu, <Heart className="inline text-pink-500" fill="#EC4899" />
             <br />
-            [Your Name]
+            Totoquinha <Heart className="inline text-pink-500" fill="#EC4899" />
           </p>
         </div>
       </div>
